@@ -20,6 +20,7 @@ We laten niet toe dat er bestellijnen toegevoegd worden zonder artikel en waarva
 
 ## Technisch 
 Uiteraard gaan we aan de slag met klassen.  
+
 We maken volgende ENTITEITSKLASSEN aan : 
   * **Artikel**  
     * Eigenschappen  
@@ -53,4 +54,11 @@ We maken volgende ENTITEITSKLASSEN aan :
       * Aantal, int  
     * Constructor : voorzie 1 constructor die alle waarden voor de 2 eigenschappen ontvangt.  
     * Override ToString : zie demo  
-
+  
+We maken volgende SERVICEKLASSEN aan : 
+  * **ArtikelService**
+    * Eigenschappen
+      * Artikels, List<**Artikel**>    
+    * Constructor  
+      * We voorzien 1 constructor die de eigenschap Artikels instantieert en voor seeding zorgt (m.a.w. een aantal klanten aanmaakt)   
+  * **KlantService**
