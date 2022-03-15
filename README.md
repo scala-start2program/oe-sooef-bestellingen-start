@@ -91,6 +91,6 @@ We maken volgende SERVICEKLASSEN aan :
         * In deze methode genereer je het nummer voor de bestelling.  Deze is steeds 1 hoger dan het hoogste reeds bestaande nummer, of indien het om de eerste bestelling gaat, nummer 1.
         * Het meegeleverde object wordt vervolgens aan de eigenschap **Bestellingen** toegevoegd.  
         * Na de toevoeging wordt de list **Bestellingen** gesorteerd op nummer 
-      * **BestellingVerwijderen, void, ontvangt een **Bestelling** object  
+      * **BestellingVerwijderen**, void, ontvangt een **Bestelling** object  
         * In deze methode wordt het meegeleverde object uit de eigenschap **Bestellingen** verwijderd.     
 
