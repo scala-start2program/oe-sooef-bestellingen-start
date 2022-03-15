@@ -35,7 +35,7 @@ We maken volgende ENTITEITSKLASSEN aan :
     * Nummer, int
     * Klant, Klant
     * Datum, DateTime
-    * Bestellijnen, List<Bestellijn> 
+    * Bestellijnen, List<Bestellijn>   
     In de constructor zorg je er voor dat de datum toegekend wordt en dat de prop Bestellijnen geïnstantieerd wordt.  
   * **Bestellijn**  
     * Artikel, Artikel
