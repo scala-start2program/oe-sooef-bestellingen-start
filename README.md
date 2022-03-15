@@ -84,4 +84,13 @@ We maken volgende SERVICEKLASSEN aan :
   * **BestelService**  
     * Eigenschap
       * Bestellingen, List<**Bestelling**>    
+    * Constructor  
+      * Voorzie 1 constructor die de eigenschap Bestellingen instantieert.
+    * Methoden
+      * **BestellingToevoegen**, void, ontvangt een **Bestelling** object  
+        * In deze methode genereer je het nummer voor de bestelling.  Deze is steeds 1 hoger dan het hoogste reeds bestaande nummer, of indien het om de eerste bestelling gaat, nummer 1.
+        * Het meegeleverde object wordt vervolgens aan de eigenschap **Bestellingen** toegevoegd.  
+        * Na de toevoeging wordt de list **Bestellingen** gesorteerd op nummer 
+      * **BestellingVerwijderen, void, ontvangt een **Bestelling** object  
+        * In deze methode wordt het meegeleverde object uit de eigenschap **Bestellingen** verwijderd.     
 
