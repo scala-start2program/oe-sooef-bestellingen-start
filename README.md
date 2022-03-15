@@ -21,5 +21,23 @@ We laten niet toe dat er bestellijnen toegevoegd worden zonder artikel en waarva
 ## Technisch 
 Uiteraard gaan we aan de slag met klassen.  
 We maken volgende ENTITEITSKLASSEN aan : 
-
+  * **Artikel**
+    * ArtikelNummer, string
+    * ArtikelOmschrijving, string
+    * Verpakking, string
+    * Prijs, decimal
+  * **Klant**
+    * Naam, string
+    * Adres, string
+    * Gemeente, string
+    * Land, string 
+  * **Bestelling**
+    * Nummer, int
+    * Klant, Klant
+    * Datum, DateTime
+    * Bestellijnen, List<Bestellijn> 
+    In de constructor zorg je er voor dat de datum toegekend wordt en dat de prop Bestellijnen geïnstantieerd wordt.  
+  * **Bestellijn**  
+    * Artikel, Artikel
+    * Aantal, int
 
