@@ -21,22 +21,32 @@ We laten niet toe dat er bestellijnen toegevoegd worden zonder artikel en waarva
 ## Technisch 
 Uiteraard gaan we aan de slag met klassen.  
 We maken volgende ENTITEITSKLASSEN aan : 
-  * **Artikel**
-    * ArtikelNummer, string
-    * ArtikelOmschrijving, string
-    * Verpakking, string
-    * Prijs, decimal
-  * **Klant**
-    * Naam, string
-    * Adres, string
-    * Gemeente, string
-    * Land, string 
-  * **Bestelling**
-    * Nummer, int
-    * Klant, Klant
-    * Datum, DateTime
-    * Bestellijnen, List<Bestellijn>   
-    In de constructor zorg je er voor dat de datum toegekend wordt en dat de prop Bestellijnen geïnstantieerd wordt.  
+  * **Artikel**  
+    * Eigenschappen  
+      * ArtikelNummer, string
+      * ArtikelOmschrijving, string
+      * Verpakking, string
+      * Prijs, decimal  
+    * Constructor :  voorzie 1 constructor die alle waarden voor de 4 eigenschappen ontvangt.  
+    * Override ToString : zie demo  
+  * **Klant**  
+    * Eigenschappen  
+      * Naam, string
+      * Adres, string
+      * Gemeente, string
+      * Land, string 
+    * Constructor :  voorzie 1 constructor die alle waarden voor de 4 eigenschappen ontvangt.  
+    * Override ToString : zie demo  
+  * **Bestelling**  
+    * Eigenschappen 
+      * Nummer, int
+      * Klant, Klant
+      * Datum, DateTime
+      * Bestellijnen, List<Bestellijn>   
+    * Constructor : voorzie 1 constructor die er voor zorgt dat de datum toegekend wordt en dat de prop Bestellijnen geïnstantieerd wordt.  
+    * Override ToString : zie demo
+    * Voorzie een methode **BestellijnToevoegen** die een **Artikel** object en een **Aantal** (int) ontvangt.  Deze methode maakt een nieuwe **Bestellijn** object aan en voegt deze toe aan de eigenschap **Bestellijnen**.
+    * Voorzie een methode **BestellijnVerwijderen dat een **Bestellijn** object ontvangt en dit object verwijdert uit de eigenschap **Bestellijnen**.  
   * **Bestellijn**  
     * Artikel, Artikel
     * Aantal, int
