@@ -60,7 +60,7 @@ We maken volgende SERVICEKLASSEN aan :
     * Eigenschappen
       * Artikels, List<**Artikel**>    
     * Constructor  
-      * We voorzien 1 constructor die de eigenschap Artikels instantieert en voor seeding zorgt (m.a.w. een aantal klanten aanmaakt)   
+      * We voorzien 1 constructor die de eigenschap Artikels instantieert en voor seeding zorgt (m.a.w. een aantal artikels aanmaakt)   
 
             Artikels.Add(new Artikel("P001", "Potloden", "Dozijn", 4.5m));
             Artikels.Add(new Artikel("P002", "Kleurpotloden", "Stuk", 0.8M));
@@ -71,3 +71,17 @@ We maken volgende SERVICEKLASSEN aan :
 
 
   * **KlantService**
+    * Eigenschappen
+      * Klanten, List<**Klant**>    
+    * Constructor
+      * We voorzzien 1 constructor die de eigenschap Klanten instantieert en voor seeding zorgt (m.a.w. een aantal klanten aanmaakt)   
+
+            Klanten.Add(new Klant("Papierpaleis", "Steenstraat 1", "8000 Brugge", "België"));
+            Klanten.Add(new Klant("De potloodfrabriek", "Vrijdagmarkt 5", "9000 Gent", "België"));
+            Klanten.Add(new Klant("Le brouillard", "Grand Place 9", "76000 Rouen", "France"));
+            Klanten.Add(new Klant("Chaucer's place", "Butter market 11", "CT1 1AF Canterbury", "UK"));
+
+  * **BestelService**  
+    * Eigenschap
+      * Bestellingen, List<**Bestelling**>    
+
