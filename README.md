@@ -61,4 +61,13 @@ We maken volgende SERVICEKLASSEN aan :
       * Artikels, List<**Artikel**>    
     * Constructor  
       * We voorzien 1 constructor die de eigenschap Artikels instantieert en voor seeding zorgt (m.a.w. een aantal klanten aanmaakt)   
+
+            Artikels.Add(new Artikel("P001", "Potloden", "Dozijn", 4.5m));
+            Artikels.Add(new Artikel("P002", "Kleurpotloden", "Stuk", 0.8M));
+            Artikels.Add(new Artikel("S001", "Stiften", "Doos 8st", 3.95M));
+            Artikels.Add(new Artikel("S002", "Luxe stiften", "Doos 24st", 12.95M));
+            Artikels.Add(new Artikel("P001", "Tekenpapier A4", "Blok 24st", 5M));
+            Artikels.Add(new Artikel("P002", "Tekenpapier A5", "Blok 50st", 6.2M));
+
+
   * **KlantService**
